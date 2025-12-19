@@ -1,0 +1,37 @@
+{
+    "title": "NeuronGlow",
+    "team": [
+            {
+      "name": "Ahemad I.I.",
+      "email": "e20009@eng.pdn.ac.lk",
+      "eNumber": "E/20/009"
+    },
+    {
+      "name": "Ketharagan P",
+      "email": "e20199@eng.pdn.ac.lk",
+      "eNumber": "E/20/199"
+    },
+    {
+      "name": "Rishanthan S.",
+      "email": "e20338@eng.pdn.ac.lk",
+      "eNumber": "E/20/338"
+    },
+    {
+      "name": "A.M.Rismy",
+      "email": "e20339@eng.pdn.ac.lk",
+      "eNumber": "E/20/339"
+    }
+        
+    ],
+    "supervisors": [
+        {
+            "name": "Ms. Mathiyalagan Mathusha",
+            "email": "mmathusha@eng.pdn.ac.lk"
+        },
+        {
+            "name": "Ms. Yasodha Vimukthi",
+            "email": "yasodhav@eng.pdn.ac.lk"
+        }
+    ],
+    "tags": ["Neural Networks", "Fuzzy Systems","Hardware","Learning Tool"]
+}
