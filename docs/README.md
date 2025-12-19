@@ -35,8 +35,6 @@ This is a sample image, to show how to add images to your page. To learn more op
 
 ## Introduction
 
- A tangible, hardware-based visualization tool that demonstrates how a perceptron updates its weights and makes decisions.
-
 ## Other Sub Topics
 
 .....
