@@ -9,7 +9,7 @@ title: Handwritten Mathematical Equation Recognition Using CNN
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Neuron Glow
+# Handwritten Mathematical Equation Recognition Using CNN
 
 ---
 
