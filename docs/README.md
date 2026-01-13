@@ -1,51 +1,61 @@
----
-layout: home
-permalink: index.html
-
-# Please update this with your repository name and title
-repository-name: e20-co542-Handwritten-Mathematical-Equation-Recognition-Using-CNN
-title: Handwritten Mathematical Equation Recognition Using CNN
----
-
-[comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
-
 # Handwritten Mathematical Equation Recognition Using CNN
 
----
+This project is a web-based application that recognizes and solves handwritten mathematical equations using a Convolutional Neural Network (CNN). It provides a user-friendly interface to either upload an image of an equation or draw it directly on a canvas.
 
-<!-- 
-This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/)
+## Features
 
-![Sample Image](./images/sample.png)
- -->
+- **Equation Recognition**: Uses a trained CNN model to recognize handwritten digits and mathematical symbols.
+- **Equation Solver**: Solves the recognized equations and provides the result.
+- **Input Methods**:
+    - **Upload Image**: Upload an image file containing a handwritten equation.
+    - **Canvas Drawing**: Draw an equation directly on the screen using the built-in canvas.
+- **Web Interface**: Built with Flask for a simple and interactive user experience.
 
-## Team
--  E/20/009, Ahemad I.I., [email](mailto:e20009@eng.pdn.ac.lk)
--  E/20/199, Ketharagan P, [email](mailto:e20199@eng.pdn.ac.lk)
--  E/20/338, Rishanthan S., [email](mailto:e20338@eng.pdn.ac.lk)
--  E/20/339, A.M.Rismy, [email](mailto:e20339@eng.pdn.ac.lk)
+## Tech Stack
 
+- **Backend Framework**: Flask
+- **Deep Learning**: TensorFlow / Keras
+- **Image Processing**: OpenCV, Pillow (PIL)
+- **Computer Algebra**: SymPy
+- **Data Handling**: Pandas
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Other Sub Topics](#other-sub-topics)
-3. [Links](#links)
+## Installation
 
----
+1.  Clone the repository:
+    ```bash
+    git clone  https://github.com/mrismy/Handwritten-Mathematical-Equation-Recognition-Using-CNN-main.git
+    cd Handwritten-Mathematical-Equation-Recognition-Using-CNN-main
+    ```
 
-## Introduction
+2.  Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-## Other Sub Topics
+## Usage
 
-.....
+1.  Run the Flask application:
+    ```bash
+    python app.py
+    ```
 
-## Links
+2.  Open your web browser and navigate to:
+    ```
+    http://127.0.0.1:5000/
+    ```
 
-- [Project Repository](https://github.com/cepdnaclk/{{ page.repository-name }}){:target="_blank"}
-- [Project Page](https://cepdnaclk.github.io/{{ page.repository-name}}){:target="_blank"}
-- [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
-- [University of Peradeniya](https://eng.pdn.ac.lk/)
+3.  **To Use**:
+    - **Upload**: Click on "Upload Image" to select a file from your computer.
+    - **Canvas**: Click on "Canvas" to draw an equation.
+    - Click the "Predict" or "Solve" buttons to get the result.
 
+## Project Structure
 
-[//]: # (Please refer this to learn more about Markdown syntax)
-[//]: # (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- `app.py`: Main Flask application file defining routes and logic.
+- `requirements.txt`: List of Python dependencies.
+- `train_classifier.ipynb`: Jupyter Notebook used for training the CNN model.
+- `eqn-detect-new-model.keras`: Trained model file.
+- `equation_calculator.py` & `solve_equation_file.py`: Helper scripts for equation parsing and solving.
+- `templates/`: HTML templates for the web interface.
+- `static/`: Static files (CSS, JS, images).
+
