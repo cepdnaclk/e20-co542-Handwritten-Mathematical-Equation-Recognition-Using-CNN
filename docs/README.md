@@ -23,8 +23,8 @@ This project is a web-based application that recognizes and solves handwritten m
 
 1.  Clone the repository:
     ```bash
-    git clone  https://github.com/mrismy/Handwritten-Mathematical-Equation-Recognition-Using-CNN-main.git
-    cd Handwritten-Mathematical-Equation-Recognition-Using-CNN-main
+    git clone  https://github.com/cepdnaclk/e20-co542-Handwritten-Mathematical-Equation-Recognition-Using-CNN.git
+    cd e20-co542-Handwritten-Mathematical-Equation-Recognition-Using-CNN
     ```
 
 2.  Install the required dependencies:
